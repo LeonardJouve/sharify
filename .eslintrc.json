@@ -1,0 +1,14 @@
+{
+    "root": true,
+    "extends": "leonardjouve",
+    "plugins": [
+        "react",
+        "react-native"
+    ],
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    },
+    "env": {
+        "react-native/react-native": true
+    }
+}

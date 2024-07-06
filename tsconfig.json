@@ -1,0 +1,10 @@
+{
+  "extends": ["tsconfig-leonardjouve", "expo/tsconfig.base"],
+  "compilerOptions": {
+    "baseUrl": ".",
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+}

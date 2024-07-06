@@ -1,21 +1,29 @@
 {
   "name": "sharify",
   "version": "1.0.0",
-  "main": "expo/AppEntry.js",
+  "main": "components/root.tsx",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "start": "expo start"
   },
   "dependencies": {
     "expo": "~51.0.18",
-    "expo-status-bar": "~1.12.1",
     "react": "18.2.0",
     "react-native": "0.74.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "@eslint/js": "^9.6.0",
+    "@types/expo": "^33.0.1",
+    "@types/react": "~18.2.79",
+    "@types/react-native": "^0.73.0",
+    "eslint": "^8.57.0",
+    "eslint-config-leonardjouve": "^1.0.22",
+    "eslint-plugin-react": "^7.34.3",
+    "eslint-plugin-react-native": "^4.1.0",
+    "globals": "^15.8.0",
+    "tsconfig-leonardjouve": "^1.0.1",
+    "typescript": "~5.3.3",
+    "typescript-eslint": "^7.15.0"
   },
   "private": true
 }
