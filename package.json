@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "components/root.tsx",
   "scripts": {
-    "start": "expo start"
+    "start": "expo start",
+    "prebuild": "expo prebuild --clean",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
   },
   "dependencies": {
     "expo": "~51.0.18",

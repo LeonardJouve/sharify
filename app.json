@@ -1,4 +1,10 @@
 {
-    "name": "My app",
-    "slug": "my-app"
+  "name": "My app",
+  "slug": "my-app",
+  "splash": {
+    "backgroundColor": "#ffffff"
+  },
+  "android": {
+    "package": "com.sharify"
+  }
 }
