@@ -4,7 +4,13 @@
   "splash": {
     "backgroundColor": "#ffffff"
   },
+  "plugins": [
+    "./modules/sharify-config/app.plugin.js"
+  ],
   "android": {
     "package": "com.sharify"
+  },
+  "ios": {
+    "bundleIdentifier": "com.sharify"
   }
 }

@@ -41,3 +41,7 @@ android {
     abortOnError false
   }
 }
+
+dependencies {
+    implementation('com.spotify.android:auth:2.1.1')
+}

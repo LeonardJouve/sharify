@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "components/root.tsx",
   "scripts": {
+    "build": "expo-module build plugin",
     "start": "expo start",
-    "prebuild": "expo prebuild --clean",
+    "prebuild": "expo prebuild",
     "android": "expo run:android",
     "ios": "expo run:ios"
   },
@@ -23,6 +24,7 @@
     "eslint-config-leonardjouve": "^1.0.22",
     "eslint-plugin-react": "^7.34.3",
     "eslint-plugin-react-native": "^4.1.0",
+    "expo-module-scripts": "^3.5.2",
     "globals": "^15.8.0",
     "tsconfig-leonardjouve": "^1.0.1",
     "typescript": "~5.3.3",
